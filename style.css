@@ -1,0 +1,43 @@
+*{
+    --text-color: #111;
+    --text-color-h1: rgb(255, 0, 0);
+}
+
+body{
+    background-color: rgb(241, 190, 114);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: var(--text-color-h1);
+    font-family: monospace;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+    
+}
+label{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1.6rem;
+    font-family: monospace;
+}
+.taille{
+    min-height: 30px;
+    width: 700px;
+    border-radius: 30px;
+    border: solid black 1px;
+    color: var(--text-color);
+    
+}
+#desc{
+    height: 200px;
+}
+#bouton{
+    font-size: 1.6rem;
+    background-color: green;
+}

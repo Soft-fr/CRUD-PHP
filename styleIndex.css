@@ -1,0 +1,10 @@
+.filmListe{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.pagination li{
+    display: inline;
+}
